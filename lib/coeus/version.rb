@@ -1,3 +1,4 @@
 module COEUS
-  VERSION = "0.0.4"
+	# COEUS gem version info
+	VERSION = "0.0.5"
 end

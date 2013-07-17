@@ -7,7 +7,7 @@ Gem::Specification.new do |spec|
   spec.name          = "COEUS"
   spec.version       = COEUS::VERSION
   spec.authors       = ["Pedro Lopes"]
-  spec.email         = ["hello@pedrolopes.net"]
+  spec.email         = ["pedrolopes@ua.pt"]
   spec.description   = %q{COEUS: semantic web application framework}
   spec.summary       = %q{This. Is. Semantic.}
   spec.homepage      = "http://bioinformatics.ua.pt/coeus/"
