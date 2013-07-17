@@ -20,5 +20,17 @@ Or install it yourself as:
 
 ```ruby
 # define COEUS base host address
-COEUS::COEUS(host)
+COEUS::COEUS.host(new_host)
 ``` 
+
+```ruby
+# get triples from COEUS knowledge base (http://bioinformatics.ua.pt/coeus/documentation/#rest)
+# returns JSON array with binded objects
+COEUS::COEUS.triple(subject, predicate, object)
+```
+
+```ruby
+# execute SPARQL query on COEUS host
+# returns RDF::Query::Solution array
+COEUS::COEUS.query(query)
+```
