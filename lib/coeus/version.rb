@@ -1,3 +1,3 @@
-module Coeus
-  VERSION = "0.0.1"
+module COEUS
+  VERSION = "0.0.4"
 end
