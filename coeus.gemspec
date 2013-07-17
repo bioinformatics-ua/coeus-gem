@@ -24,4 +24,5 @@ Gem::Specification.new do |spec|
   spec.add_dependency "rdf"
   spec.add_dependency "sparql"
   spec.add_dependency "json"
+  spec.add_dependency "rake"
 end

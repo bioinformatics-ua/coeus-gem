@@ -27,15 +27,25 @@ module COEUS
   	# * http://bioinformatics.ua.pt/coeus/
   	# 
   	def self.host(host)
+  		# verify if valid HTTP URL
   		if host.start_with?('http')
   			@host = host
+
+  			# add final slash (/) if not available
+  			if !@host.end_with?('/')
+  				@host += '/'
+  			end
   		else
-  			puts 'Invalid host'
+  			raise '[COEUS] Invalid host URL'
   		end
   	end
 
-  	def self.open
-  		puts @host
+  	def self.host
+  		@host
+  	end
+
+  	def self.print
+  		puts "[COEUS] instance details\n\t- Host: #{@host}\n\t- API key: #{@key}"
   	end
 
   	## 
