@@ -40,7 +40,7 @@ module COEUS
   		end
   	end
 
-  	def self.host
+  	def self.get_host
   		@host
   	end
 
