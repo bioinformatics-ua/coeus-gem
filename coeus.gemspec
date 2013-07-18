@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Pedro Lopes"]
   spec.email         = ["pedrolopes@ua.pt"]
   spec.description   = %q{COEUS: semantic web application framework}
-  spec.summary       = %q{This. Is. Semantic.}
+  spec.summary       = %q{Ruby Gem providing direct access to a custom COEUS instance API methods.}
   spec.homepage      = "http://bioinformatics.ua.pt/coeus/"
   spec.license       = "MIT"
 
