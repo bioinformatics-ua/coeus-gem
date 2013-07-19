@@ -31,7 +31,7 @@ COEUS::COEUS.key 'api key'
 ```ruby
 # execute SPARQL query on COEUS host
 # returns RDF::Query::Solution array
-COEUS::COEUS.query(query)
+COEUS::COEUS.query 'SELECT * {?s ?p ?o}'
 ```
 
 ```ruby
